@@ -18,4 +18,6 @@ A first scene with two spheres:
 
 ![Screen](figures/two_spheres.PNG)
 
-## A video ?
+## A video
+
+![Spinning donut](figures/donut.gif)
