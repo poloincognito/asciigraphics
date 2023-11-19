@@ -12,7 +12,7 @@ I proposed an OOP implementation to have multiple light sources and objects:
 - `Screen` for ray-tracing, with the fields `screen` and `depth_buffer`, and the methods `.update_ray(x,y,luminance, depth)` and `.display()`
 - `Scene` with the fields `objects`, `positions` and `screen`, `.render` method
   
-An aspect not taken into account is that the maximal distance between two neighbour vertices is inferior to the maximal distance between two vertices within one pixel.
+An aspect not taken into account is that the maximal distance between two neighbour vertices should be inferior to the maximal distance between two vertices within one pixel.
 
 A first scene with two spheres:  
 
