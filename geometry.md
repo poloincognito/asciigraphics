@@ -7,8 +7,8 @@ https://www.a1k0n.net/2011/07/20/donut-math.html
 
 ![Screen](figures/donut1.PNG)
 
-Here is the screen that I will use. I placed the donut at a distance such that it never pierces the screen. It is actually useless as I later consider that the viewer is at an infinite distance. The discretization grid correspond to the pixels (that will be characters of equal width in our case). $N^2$ will be the number of pixels.
-I choose the screen to be the size of the donut. The width of a pixel is then:
+Here is the screen that I will use. I placed the donut at a distance such that it never pierces the screen. The discretization grid corresponds to the pixels (that will be characters of equal width in our case). $N^2$ will be the number of pixels.
+I chose the screen to be approximately the size of the donut. The width of a pixel is then:
 $dx = (2R+2r)/N$
 
 I will use a discretization of the 3d surface using a discretization of the angles $\theta$ and $\phi$. I will then project each point on the screen, taking into account its luminance.
@@ -56,5 +56,5 @@ $$ n(\theta,\phi, \alpha) = R_z(\alpha)R_y(\phi)R_z(\theta) e_x$$
 
 ### Luminance
 
-I consider that the viewer is at an infinite distance. The luminance then is:
-$$l = |<n,e_y>|$$
+Let $u$ be the vector representing the incident ray of light:
+$$l = max(0,-<n,u>)$$
