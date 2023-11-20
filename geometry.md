@@ -1,6 +1,6 @@
 # Some 3d geometry
 
-**Caveat: I went for a more generic OOP structure that allows to draw any mesh, see `geometry.pdf` for more drawings**
+**Caveat: I went for a more generic OOP structure that allows to draw any mesh**
 
 Starting from:
 https://www.a1k0n.net/2011/07/20/donut-math.html
