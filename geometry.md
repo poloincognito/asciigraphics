@@ -50,11 +50,17 @@ R_x = \left(\begin{array}{ccc}
 ![Angles](figures/donut3.PNG)
 
 Given $\Omega = (0,-d, 0)$, $\omega = (R,0,0)$, one gets:  
-$$ u(\theta,\phi, \alpha) = R_z(\alpha)(\Omega + R_y(\phi) (\omega + r R_z(\theta) e_x))$$
+$$
+u(\theta,\phi, \alpha) = R_z(\alpha)(\Omega + R_y(\phi) (\omega + r R_z(\theta) e_x))
+$$
 with the normal vector:
-$$ n(\theta,\phi, \alpha) = R_z(\alpha)R_y(\phi)R_z(\theta) e_x$$
+$$
+n(\theta,\phi, \alpha) = R_z(\alpha)R_y(\phi)R_z(\theta) e_x
+$$
 
 ### Luminance
 
 Let $u$ be the vector representing the incident ray of light:
-$$l = max(0,-<n,u>)$$
+$$
+l = max(0,-<n,u>)
+$$
